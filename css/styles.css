@@ -543,29 +543,29 @@ img {
 
 
 
-/* < !-- Преимущества --> */
-.benefits-list {
+/* < !-- Преимущества benefits-section --> */
+.benefits {
   display: flex;
   margin-right: -30px;
 }
 
-.benefits-item {
+.benefits__item {
   margin-right: 30px;
   width: 270px;
 }
 
-.benefits-item:last-child {
+.benefits__item:last-child {
   margin-right: 0;
 }
 
-.benefits-text {
+.benefits__text {
   font-size: 14px;
   line-height: 1.71;
 
   color: var(--main-text-color);
 }
 
-.benefits-title {
+.benefits__title {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
@@ -576,15 +576,15 @@ img {
 }
 
 /* Иконки Преймущества */
-.benefits-list {
+.benefits {
   display: flex;
 }
 
-.benefits-item:not(:last-child) {
+.benefits__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.benefits-link {
+.benefits__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -599,23 +599,23 @@ img {
 }
 
 
-.benefits-link:hover {
+.benefits__link:hover {
   border-color: var(--accent-color);
 }
 
-.benefits-link:hover .benefits-icon,
-.benefits-link:focus .benefits-icon {
+.benefits__link:hover .benefits__icon,
+.benefits__link:focus .benefits__icon {
   fill: var(--accent-color);
 }
 
-/* Примеры работ */
+/* Примеры работ galerry-cection */
 
-.galerry-section {
+.galerry {
   background-color: var(--main-bacground-color);
   padding-bottom: 94px;
 }
 
-.galerry-title {
+.galerry__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.71;
@@ -624,21 +624,21 @@ img {
   margin-bottom: 50px;
 }
 
-.galerry-img {
+.galerry__img {
   display: flex;
 }
 
-.galerry-item:not(:last-child) {
+.galerry__item:not(:last-child) {
   margin-right: 30px;
   width: 370px;
 }
 
 /* Псевдо-элемент для Примеры работ */
-.galrrry-text {
+.galrrry__text {
   position: relative;
 }
 
-.applications {
+.galrrry__applications {
   position: absolute;
   bottom: 0;
   display: flex;
@@ -749,8 +749,8 @@ img {
   fill: var(--main-bacground-color);
 }
 
-/* Постоянные клиенты */
-.clients-title {
+/* Постоянные клиенты clients-section*/
+.clients__title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -765,11 +765,11 @@ img {
   display: flex;
 }
 
-.clients-item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -782,20 +782,20 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-icon {
+.clients__icon {
   fill: #AFB1B8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
 
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
+.clients__link:hover .clients__icon,
+.clients__link:focus .clients__icon {
   fill: var(--accent-color);
 }
 

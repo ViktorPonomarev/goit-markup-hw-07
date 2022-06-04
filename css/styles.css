@@ -1,31 +1,3 @@
-:root {
-  --main-font: Roboto, sans-serif;
-  --secondary-font: Raleway, sans-serif;
-  /* text-color */
-  --accent-color: #2196F3;
-  --main-text-color: #757575;
-  --title-text-color: #212121;
-  --secondary-text-color: #FFFFFF;
-  --logo-text-color: #000000;
-  /* bacground-calor */
-  --main-bacground-color: #FFFFFF;
-  --secondary-bacground-color: #2F303A;
-  --galerry-bacground-color: #E5E5E5;
-  --team-bacgrount-color: #F5F4FA;
-  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-
-body {
-  font-family: var(--main-font);
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
-  background-color: var(--main-bacground-color);
-}
-
-
 h1,
 h2,
 h3,
@@ -41,29 +13,9 @@ img {
   max-width: 100%;
 }
 
-/* Скрытые заголовки */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
-/* Container */
-.container {
-  /* outline: 1px solid red; */
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
+
 
 /* Падинги для секций */
 .section {

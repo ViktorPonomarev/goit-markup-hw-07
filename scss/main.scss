@@ -7,11 +7,32 @@
 
 // base styles
 @import './base/common';
-@import './base/container';
 @import './base/reset';
+@import './base/js-selectors';
+@import './base/animations';
+@import './base/container';
+@import './base/card-set';
 
 
 // components
+// btn
+@import './components/btn-portfolio';
+@import './components/footer-btn';
+@import './components/hero-btn';
+@import './components/modal-btn';
+// cocial
+@import './components/footer-cocial';
+@import './components/team-items';
+@import './components/';
+@import './components/';
+@import './components/';
+@import './components/';
+@import './components/';
+@import './components/';
+@import './components/';
+
+
+
 
 
 // layuots
